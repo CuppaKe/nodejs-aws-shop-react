@@ -1,14 +1,7 @@
-# Welcome to your CDK TypeScript project
+Task 2:
 
-This is a blank project for CDK development with TypeScript.
+s3 link: https://reactappdeploymentstack-reactappbuckete340e270-dltqjwolqmwd.s3.us-east-1.amazonaws.com
+CloudFront: https://dpt5iakjh30wq.cloudfront.net/admin/orders
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
-
-## Useful commands
-
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `npx cdk deploy`  deploy this stack to your default AWS account/region
-* `npx cdk diff`    compare deployed stack with current state
-* `npx cdk synth`   emits the synthesized CloudFormation template
+Manual deployment is done and destroyed;
+To deploy with AWS CDK run deploy;
