@@ -53,6 +53,8 @@ export class ReactAppDeploymentStack extends cdk.Stack {
     new s3deploy.BucketDeployment(this, "ReactAppCDN", {
       sources: [s3deploy.Source.asset("../dist")],
       destinationBucket: reactAppBucket,
+      distribution: cloudFrontDist,
+      distributionPaths: ["/*"],
     });
 
     // Output the CloudFront URL
